@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blueokhwani"
+    tools:context=".profil.Addprofil">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/gmail_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/imgsocial"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/welcometxt"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="Please enter your child's social media information"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="left">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:text="This information will do and do and do and do and do and do and do and do and do. "
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        >
+
+        <EditText
+            android:id="@+id/socialNP"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:ems="11"
+            android:layout_marginTop="25dp"
+            android:hint="Social netowrk platform"
+            android:inputType="text"
+            android:background="@drawable/button_background"
+            android:textColorHint="@color/grey"
+            />
+
+
+        <EditText
+            android:id="@+id/socialNUS"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:ems="11"
+            android:layout_marginTop="25dp"
+            android:hint="Social network username"
+            android:inputType="text"
+            android:background="@drawable/button_background"
+            android:textColorHint="@color/grey"
+            />
+
+
+        <EditText
+            android:id="@+id/socialNUR"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:ems="11"
+            android:layout_marginTop="25dp"
+            android:hint="Social network URL "
+            android:inputType="text"
+            android:background="@drawable/button_background"
+            android:textColorHint="@color/grey"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/skipButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Skip"
+                android:background="@drawable/button_background"
+
+                android:layout_gravity="center">
+
+            </Button>
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="Next"
+                android:background="@drawable/button_background"
+
+                android:layout_gravity="center">
+
+            </Button>
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

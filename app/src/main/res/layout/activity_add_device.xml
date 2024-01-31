@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blueokhwani"
+    tools:context=".bienvenueANDadddevice.AddDevice">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/welcometxt"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="Who is going to use this device?"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:gravity="left"
+            android:text="The information below describes something about a qr code . I personally didn't read it all for the reason that the writing is somewhat small. Thank you "
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical"
+        android:layout_gravity="left">
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:gravity="left"
+            android:text="Please follow the following steps:"
+
+            android:textColor="@color/white" />
+
+
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:text="1.Please follow the following steps:"
+
+            android:textColor="@color/white" />
+
+
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:text="2.Please follow the following steps:the following steps:the following steps:"
+
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:text="3.Please follow the following steps:the following steps:the following steps:"
+
+            android:textColor="@color/white" />
+
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:text="4.Please follow the following steps:the following steps:the following steps:"
+
+            android:textColor="@color/white" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/gmail_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/qrro"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/skipButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Skip"
+            android:background="@drawable/button_background"
+
+            android:layout_gravity="center">
+
+        </Button>
+
+            <Button
+                android:id="@+id/startButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="Start"
+                android:background="@drawable/button_background"
+
+                android:layout_gravity="center">
+
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

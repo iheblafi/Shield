@@ -37,6 +37,7 @@
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewP"
             android:layout_width="310dp"
             android:layout_height="200dp"
             android:layout_margin="5dp"
@@ -75,6 +76,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewC"
             android:layout_width="310dp"
             android:layout_height="200dp"
             android:layout_margin="40dp"
